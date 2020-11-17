@@ -1,0 +1,107 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Edit docente
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list lines="full">
+    <form [formGroup]="updateBookingForm" (ngSubmit)="updateForm()">
+
+
+      <ion-item>
+        <ion-label position="floating">nombre</ion-label>
+        <ion-input formControlName="nombre" type="text" required>
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">apellidoPaterno</ion-label>
+        <ion-input formControlName="apellidoPaterno" type="text" required>
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">apellidoMaterno</ion-label>
+        <ion-input formControlName="apellidoMaterno" type="text" required>
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">edad</ion-label>
+        <ion-input formControlName="edad" type="text" required>
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">fechaNacimiento</ion-label>
+        <ion-input formControlName="fechaNacimiento" type="text" required>
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">gradoDdominio</ion-label>
+        <ion-input formControlName="gradoDdominio" type="text" required>
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">cedulaProfecional</ion-label>
+        <ion-input formControlName="cedulaProfecional" type="text" required>
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">estado</ion-label>
+        <ion-input formControlName="estado" type="text" required>
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">ciudad</ion-label>
+        <ion-input formControlName="ciudad" type="text" required>
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">acreditacionDestudiosMinimosDlicenciatura</ion-label>
+        <ion-input formControlName="acreditacionDestudiosMinimosDlicenciatura" type="text" required>
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">formacionPedagogica</ion-label>
+        <ion-input formControlName="formacionPedagogica" type="text" required>
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">dominioSegundaLengua</ion-label>
+        <ion-input formControlName="dominioSegundaLengua" type="text" required>
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">promedioGeneralCarrera</ion-label>
+        <ion-input formControlName="promedioGeneralCarrera" type="text" required>
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">cursoExtraCurriculares</ion-label>
+        <ion-input formControlName="cursoExtraCurriculares" type="text" required>
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">programasDmovilidadAcademica</ion-label>
+        <ion-input formControlName="programasDmovilidadAcademica" type="text" required>
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">fotografiaTipoPasaporte</ion-label>
+        <ion-input formControlName="fotografiaTipoPasaporte" type="text" required>
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">numeroCelular</ion-label>
+        <ion-input formControlName="numeroCelular" type="text" required>
+        </ion-input>
+      </ion-item>
+    
+      <ion-row>
+        <ion-col>
+          <ion-button type="submit" color="primary" shape="full" expand="block">Update docente</ion-button>
+        </ion-col>
+      </ion-row>
+    </form>
+  </ion-list>
+</ion-content>
